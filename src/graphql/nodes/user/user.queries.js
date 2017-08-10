@@ -10,7 +10,7 @@ const user = {
     username: { type: GraphQLString },
     email: { type: GraphQLString },
   },
-  resolve: (root, args, { UserLoader }) => { UserLoader.load(args._id); },
+  resolve: (root, args, { UserLoader }) => UserLoader.load(args._id),
 };
 
 const users = {
