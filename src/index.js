@@ -1,12 +1,16 @@
 import server from './config/server.config';
 import config from './config/app.config';
 import db from './config/db.config';
+import auth from './auth';
 
-server.get('/', (req, res) => {
-  res.send('server is working!');
+server.get('/health-check', (req, res) => {
+  res.send('Server is up and running!');
 });
 
-// Check database connection
+// Authentication endpoints
+server.use('/auth', auth);
+
+// Throw error if database connection fails
 db.connection.on('error', () => {
   throw new Error('Unable to connect to database');
 });
