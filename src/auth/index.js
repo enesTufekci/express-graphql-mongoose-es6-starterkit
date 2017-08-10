@@ -4,7 +4,7 @@ import { Strategy } from 'passport-local';
 import bcrypt from 'bcrypt-nodejs';
 import jwt from 'jsonwebtoken';
 
-import User from '../models/user.model';
+import User from '../models/user';
 
 const router = Router({ caseSensitive: true });
 
