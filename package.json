@@ -1,0 +1,49 @@
+{
+  "name": "express-graphql-mongoose-es6-starter-kit",
+  "version": "1.0.0",
+  "description": "GrahpQL server starter kit with express and mongoose in ES6",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enesTufekci/express-graphql-mongoose-es6-starterkit.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Express",
+    "Mongoose",
+    "Babel",
+    "ES6",
+    "Dataloader",
+    "Starter",
+    "Kit",
+    "Airbnb"
+  ],
+  "author": "Enes Tufekci <enesxtufekci@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enesTufekci/express-graphql-mongoose-es6-starterkit/issues"
+  },
+  "homepage": "https://github.com/enesTufekci/express-graphql-mongoose-es6-starterkit#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "helmet": "^3.8.1",
+    "mongoose": "^4.11.6",
+    "passport": "^0.3.2"
+  }
+}
