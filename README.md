@@ -2,6 +2,7 @@
 
 ### Features
 - [Apollo GraphQL server](http://dev.apollodata.com/tools/apollo-server/setup.html#graphqlExpress)
+- [Passport](passportjs.org)
 - [Mongoose](http://mongoosejs.com)
 - [Dataloader](https://github.com/facebook/dataloader)
 - [Babel Latest](https://babeljs.io/docs/plugins/preset-latest/)
